@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/samuel-zeller-4138-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #1851ce;
+    position: fixed
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 50px;
+    padding-left: 50px;
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px #000;
+    font-weight: normal;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #c94e50;
+}
+
+main {
+    height: 800px;
+    background-color: rgba(230, 232, 239, 0.1);
+}
+
+.main-page-splash-text {
+    margin-top: 60px;
+    background-color: rgba(230, 232, 239, 0.3);
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    color: #185ece;
+    text-shadow: 1px 1px #000;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 26px;
+    color: #000;
+    text-shadow: 1px 1px #fff;
+    font-weight: 500px;
+    text-align: center;
+    font-style: italic;
+}
+
+.definition {
+    font-style: normal;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #737884;
+    height: 50px;
+}
+
+footer p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+.about-page-background {
+    background-image: url('./images/ander-burdain-179167-unsplash.jpg');
+}
+
+.about-text {
+    margin-right: 140px;
+    font-size: 26px;
+    text-align: right;
+}
+
+.kanga {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.boundary {
+letter-spacing: 6px;
+font-weight: 800;
+}
+
+.genre {
+    font-style: italic;
+}
+
+.contact-page-background {
+    background-image: url('./images/oleg-laptev-546613-unsplash.jpg');
+}
+
+.contact-info {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.agent-contact {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1130px) {
+    main {
+        background-color: rgba(230, 232, 239, 0.3);
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    main {
+        background-color: rgba(230, 232, 239, 0.5);
+    }
+    .about-text {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
