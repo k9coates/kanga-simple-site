@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('./images/samuel-zeller-4138-unsplash.jpg');
+    background-image: url('./images/samuel-zeller-4138-unsplashCC.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ footer p {
 
 
 .about-page-background {
-    background-image: url('./images/ander-burdain-179167-unsplash.jpg');
+    background-image: url('./images/ander-burdain-179167-unsplashCC.jpg');
 }
 
 .who-we-are {
@@ -120,12 +120,9 @@ footer p {
 }
 
 .contact-page-background {
-    background-image: url('./images/oleg-laptev-546613-unsplash.jpg');
+    background-image: url('./images/oleg-laptev-546613-unsplashCC.jpg');
 }
 
-.contact-us {
-    text-transform: uppercase;
-}
 .contact-info {
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
