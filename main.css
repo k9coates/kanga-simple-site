@@ -42,12 +42,12 @@ nav a:hover {
 
 main {
     height: 800px;
-    background-color: rgba(230, 232, 239, 0.1);
+    background-color: rgba(230, 232, 239, 0.2);
 }
 
-.main-page-splash-text {
+.splash-text {
     margin-top: 60px;
-    background-color: rgba(230, 232, 239, 0.3);
+    background-color: rgba(230, 232, 239, 0.4);
     padding: 5px;
 }
 
@@ -104,10 +104,13 @@ footer p {
     background-image: url('./images/ander-burdain-179167-unsplash.jpg');
 }
 
+.who-we-are {
+    padding: 40px;
+}
 .about-text {
-    margin-right: 140px;
-    font-size: 26px;
-    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 .kanga {
@@ -116,19 +119,13 @@ footer p {
     font-family: 'Oswald', sans-serif;
 }
 
-.boundary {
-letter-spacing: 6px;
-font-weight: 800;
-}
-
-.genre {
-    font-style: italic;
-}
-
 .contact-page-background {
     background-image: url('./images/oleg-laptev-546613-unsplash.jpg');
 }
 
+.contact-us {
+    text-transform: uppercase;
+}
 .contact-info {
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
