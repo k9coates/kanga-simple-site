@@ -42,7 +42,12 @@ nav a {
 nav li {
     list-style: none;
 }
-nav a:hover {
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
     color: #c94e50;
 }
 
@@ -52,8 +57,9 @@ main {
 
 .splash-text {
     font-family: 'EB Garamond', serif;
+    font-size: 22px;
     margin-top: 60px;
-    background-color: rgba(230, 232, 239, 0.9);
+    background-color: rgba(230, 232, 239, 1.0);
     padding: 25px;
     font-size: 20px;
 }
@@ -76,8 +82,8 @@ h2 {
     text-align: center;
 }
 
-.definition {
-    font-style: normal;
+.itals {
+    font-style: italic;
 }
 
 footer {
@@ -98,6 +104,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
+    font-weight: 800;
 }
 
 #home {
@@ -106,7 +113,47 @@ footer {
 
 #speakers {
     background-color: #fff;
-    height: 400px;
+    height: 700px;
+    padding: 8px;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.4;
+    padding: 15px;
+}
+
+.speaker-images {
+    position: relative;
+    height: 330px;
+    width: 205px;
+}
+
+.speaker-images img {
+    position: absolute;
+    right: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.speaker-images img.ds-photo:hover {
+    opacity: 0;
+}
+
+.ds-photo {
+    display: block;
+    margin: 0 auto;
+    height: 320px;
+    width: 200px;
+}
+
+ .trump-photo {
+    display: block;
+    height: 380px;
+    width: 240px;
+}
+
+h3 {
+    text-align: center;
 }
 
 #contact {
