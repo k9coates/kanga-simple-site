@@ -54,7 +54,8 @@ main {
 .splash-text {
     margin-top: 60px;
     background-color: rgba(230, 232, 239, 0.9);
-    padding: 5px;
+    padding: 25px;
+    font-size: 20px;
 }
 
 h1 {
@@ -93,45 +94,35 @@ footer {
     text-align: center;
 }
 
-.about-page-background {
-    background-image: url('./images/willian-justen-de-vasconcellos-603962-unsplashCC.jpg');
-}
-
-.who-we-are {
-    padding: 40px;
-}
-.about-text {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
 .kanga {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
 }
 
-.contact-page-background {
-    background-image: url('./images/oleg-laptev-546613-unsplashCC.jpg');
+#home {
+    height: 500px;
 }
 
-.contact-info {
+#speakers {
+    background-color: #fff;
+    height: 400px;
+}
+
+#contact {
+    background-color: rgb(77, 92, 124);
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
     font-family: 'Oswald', sans-serif;
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.agent-contact, .poem  {
-    font-size: 22px;
-    font-weight: 800;
-    text-align: center;
-    padding-top: 20px;
+    letter-spacing: 2px;
 }
 
-.poem {
-    padding-top: 20px;
-}
+
+
 
 @media only screen and (max-width: 700px) {
 
