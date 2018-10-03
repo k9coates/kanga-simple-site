@@ -114,7 +114,7 @@ footer {
 
 #speakers {
     background-color: #fff;
-    height: 670px;
+    height: 750px;
     font-family: 'EB Garamond', serif;
     line-height: 1.4;
     font-weight: 700;
@@ -161,13 +161,46 @@ h3 {
     letter-spacing: 2px;
 }
 
+.contact-info {
+    font-size: 24px;
+    color: #000;
+    text-shadow: 1px 1px #808080;
+}
 
 
+@media only screen and (max-width: 550px) {
 
-@media only screen and (max-width: 700px) {
-
-    .about-text {
-        font-size: 18px;
-        font-weight: 800;
+    nav a {
+        font-size: 12px;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    h1 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    #contact p {
+        font-size: 16px;
+    }
+
 }
