@@ -58,9 +58,9 @@ main {
 .splash-text {
     font-family: 'EB Garamond', serif;
     font-size: 22px;
-    margin-top: 60px;
-    background-color: rgb(230, 232, 239);
-    padding: 25px;
+    margin-top: 50px;
+    background-color: rgba(230, 232, 239, 0.9);
+    padding: 15px;
     font-size: 20px;
 }
 
@@ -91,12 +91,11 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #737884;
-    height: 30px;
+    height: 25px;
 }
 
 .copyright {
-    font-size: 14px;
-    letter-spacing: 0px;
+    font-size: 10px;
     text-align: center;
 }
 
